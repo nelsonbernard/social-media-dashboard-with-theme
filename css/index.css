@@ -241,19 +241,19 @@ body.light-mode .overview{
 }
 
 .facebook{
-    content: url("./images/icon-facebook.svg");
+    content: url("../images/icon-facebook.svg");
 }
 
 .twitter{
-    content: url("./images/icon-twitter.svg");
+    content: url("../images/icon-twitter.svg");
 }
 
 .instagram{
-    content: url("./images/icon-instagram.svg");
+    content: url("../images/icon-instagram.svg");
 }
 
 .youtube{
-    content: url("./images/icon-youtube.svg");
+    content: url("../images/icon-youtube.svg");
 }
 
 .lime-green{
@@ -325,12 +325,12 @@ body.light-mode .overview{
 }
 
 .change-icon-up{
-    content: url('./images/icon-up.svg');
+    content: url('../images/icon-up.svg');
     margin-right: .3rem;
 }
 
 .change-icon-down{
-    content: url('./images/icon-down.svg');
+    content: url('../images/icon-down.svg');
     margin-right: .3rem;
 }
 
