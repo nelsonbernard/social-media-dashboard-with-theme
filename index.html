@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body class="dark-mode">
+    <main>
+      <div class="container">
+        <div class="content-top">
+          <div class="header">
+            <div class="header-left">
+              <h1 class="title">Social Media Dashboard</h1>
+              <p class="total-followers">Total Followers: 23,004</p>
+            </div>
+            <div class="header-right">
+              <p class="theme-name" for="switch">Dark Mode</p>
+
+              <div class="toggle-switch">
+                <input type="checkbox" id="switch" onclick="toggleTheme()" />
+                <label for="switch"></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-large">
+            <div class="card-large card-fb">
+              <span class="social"><img class="social-icon facebook" />@nathanf</span>
+              <p class="followers"><span class="follower-value">1987</span> Followers</p>
+              <span class="follower-change lime-green"><img class="change-icon-up" />12 Today</span>
+            </div>
+            <div class="card-large card-tw">
+              <span class="social"><img class="social-icon twitter" />@nathanf</span>
+              <p class="followers"><span>1044</span> Followers</p>
+              <span class="follower-change lime-green"><img class="change-icon-up" />99 Today</span>
+            </div>
+            <div class="card-large card-ig">
+              <span class="social"> <img class="social-icon instagram" />@realnathanf </span>
+              <p class="followers"><span>11k</span> Followers</p>
+              <span class="follower-change lime-green"> <img class="change-icon-up" />1099 Today </span>
+            </div>
+            <div class="card-large card-yt">
+              <span class="social"><img class="social-icon youtube" />Nathan F.</span>
+              <p class="followers"><span>8239</span> Subscribers</p>
+              <span class="follower-change bright-red"> <img class="change-icon-down" />144 Today </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-bottom">
+          <h1 class="overview">Overview - Today</h1>
+
+          <div class="grid-small">
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Page Views</span>
+                <img class="social facebook" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">87</h1>
+                <span class="value-change lime-green"><img class="change-icon-up" />3%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Likes</span>
+                <img class="social facebook" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">52</h1>
+                <span class="value-change bright-red"><img class="change-icon-down" />2%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Likes</span>
+                <img class="social instagram" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">5462</h1>
+                <span class="value-change lime-green"><img class="change-icon-up" />2257%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Profile Views</span>
+                <img class="social instagram" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">52k</h1>
+                <span class="value-change lime-green"><img class="change-icon-up" />1375%</span>
+              </div>
+            </div>
+
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Retweets</span>
+                <img class="social twitter" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">117</h1>
+                <span class="value-change lime-green"><img class="change-icon-up" />303%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Likes</span>
+                <img class="social twitter" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">507</h1>
+                <span class="value-change lime-green"><img class="change-icon-up" />553%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Likes</span>
+                <img class="social youtube" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">107</h1>
+                <span class="value-change bright-red"><img class="change-icon-down" />19%</span>
+              </div>
+            </div>
+            <div class="card-small">
+              <div class="card-row-top">
+                <span class="card-type">Total Views</span>
+                <img class="social youtube" />
+              </div>
+              <div class="card-row-bottom">
+                <h1 class="card-value">1407</h1>
+                <span class="value-change bright-red"><img class="change-icon-down" />12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
